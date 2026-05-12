@@ -32,11 +32,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: orange;
+  background-color: rgb(241, 130, 191);
 }
 
 .active {
-  background-color: red;
+  background-color: rgb(250, 242, 242);
 }
 
 h1 {

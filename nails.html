@@ -6,15 +6,29 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+       .parent-flex {
+        display: flex;
+        background-color: rgb(238, 33, 118);
+        justify-content: space-around;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      img {
+        max-width: 30%;
+        border-radius: 10px;
+        object-fit: contain;
+        background-color: white;
+      }
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">art</a></li>
-      <li><a class="active" href="resume.html">NAILS</a></li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="theater.html">THEATER</a></li>
+      <li><a href="beach.html">BEACH</a></li>
+      <li><a class="active" href="nails.html">NAILS</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -31,6 +45,25 @@
       </li>
     </ul>
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Resume</h1>
+    <h1>Nails</h1>
+
+     <div class="parent-flex">
+    <img
+        src="images/HeartIcons.jpeg"
+      />
+      <img
+        src="images/VibeyTunes.png"
+      />
+    </div>
+
+    <div class="parent-flex">
+      <img
+        src="images/VibeyTunes.png"
+      />
+      <img
+        src="images/HeartIcons.jpeg"
+      />
+    </div>
   </body>
 </html>
+
